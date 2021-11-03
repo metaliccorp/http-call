@@ -40,7 +40,7 @@ type (
 	}
 )
 
-func CallRequest() Requests {
+func Call() Requests {
 	return &requests{}
 }
 
