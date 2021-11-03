@@ -18,7 +18,7 @@ func TestCallGet(t *testing.T) {
 		TIMEOUT: 5,
 	}
 	var res Response
-	if err := Call().Get(param, &res).Error(); err != nil {
+	if err := CallRequest().Get(param, &res).Error(); err != nil {
 		fmt.Println(err)
 	}
 	fmt.Println(res)
