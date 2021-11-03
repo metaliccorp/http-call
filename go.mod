@@ -1,4 +1,4 @@
-module git.onespace.co.th/osgolib/http-requests
+module github.com/surabotploydang/http-call
 
 go 1.15
 
